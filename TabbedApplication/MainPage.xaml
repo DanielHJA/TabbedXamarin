@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:TabbedApplication;assembly=TabbedApplication"
+            x:Class="TabbedApplication.MainPage">
+
+    <NavigationPage Title="Animals">
+		<x:Arguments>
+			<local:Animals />
+		</x:Arguments>
+	</NavigationPage>
+
+    <NavigationPage Title="People">
+		<x:Arguments>
+			<local:People />
+		</x:Arguments>
+	</NavigationPage>
+
+
+    <NavigationPage Title="Animals">
+		<x:Arguments>
+			<local:Animals />
+		</x:Arguments>
+	</NavigationPage>
+
+
+    <NavigationPage Title="People">
+		<x:Arguments>
+			<local:People />
+		</x:Arguments>
+	</NavigationPage>
+
+</TabbedPage>
